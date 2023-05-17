@@ -1,0 +1,67 @@
+/* Paleta de coolors utilizada: https://coolors.co/palette/0fa3b1-b5e2fa-f9f7f3-eddea4-f7a072 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-bottom: 100px;
+    background-color: #F9F7F3;
+}
+
+main{width: 90vw;}
+
+
+img{
+    width: 49%;
+}
+
+#resultado{
+    width: 90%;
+}
+
+#mapa{
+    width: 100%;
+}
+
+ul{
+    width: 100%;
+}
+ul li{
+    width: 100%;
+}
+
+h1.h4{
+    color: #F7A072;
+    font-weight: 600;
+}
+
+h2 span{
+    color: #0FA3B1;
+}
+
+.card{
+    background-color: #B5E2FA;
+}
+
+
+#logo{
+    width: 30%;
+}
+
+#busqueda{
+    background-color: #EDDEA4;
+}
+
+#btnBuscar{
+    background-color: #F7A072;
+}
+
+@media screen and (min-width: 720px ) {
+
+    #contenedor-busqueda{
+        width: 40%;
+    }
+
+}
